@@ -1,2 +1,5 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+
+# Golden output files are compared byte for byte; keep their CRLF line endings.
+*.expected.csv -text

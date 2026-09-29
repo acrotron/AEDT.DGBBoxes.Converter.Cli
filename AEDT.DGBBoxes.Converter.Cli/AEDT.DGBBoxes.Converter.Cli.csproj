@@ -8,9 +8,4 @@
     <PackageReference Include="CsvHelper" />
   </ItemGroup>
 
-  <ItemGroup>
-    <None Update="example.csv">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </None>
-  </ItemGroup>
 </Project>
